@@ -1,0 +1,27 @@
+{
+  "name": "esbuild_cra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "node scripts/build-prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipexperto/esbuild_cra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipexperto/esbuild_cra/issues"
+  },
+  "homepage": "https://github.com/felipexperto/esbuild_cra#readme",
+  "dependencies": {
+    "esbuild": "^0.8.36",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  }
+}
