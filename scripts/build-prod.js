@@ -1,4 +1,6 @@
-require('esbuild').buildSync({
+const esbuild = require('esbuild');
+
+const esbuildOptions = {
   entryPoints: ['src/index.js'],
   bundle: true,
   loader: { ".js": "jsx" },
@@ -12,4 +14,10 @@ require('esbuild').buildSync({
     "process.env.NODE_ENV": '"development"',
     global: "window",
   }
-})
+};
+
+esbuild.buildSync(esbuildOptions);
+
+module.exports = {
+  esbuildOptions,
+}
