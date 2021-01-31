@@ -14,13 +14,13 @@ Os papéis de algumas dependências:
 
 ## Executando o projeto
 
-- Clone o repositório
+**Clone o repositório**
 
-- Instale as dependências
- - `yarn install`
+**Instale as dependências**
+  - `yarn install`
 
-- Execute o projeto
- - `yarn serve`
+**Execute o projeto**
+  - `yarn serve`
 
-- Visite o endereço:
+**Visite o endereço:**
  - `http://localhost:3000`
