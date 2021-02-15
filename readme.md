@@ -1,4 +1,4 @@
-# **esbuild_project**
+# **esbuild_cra**
 ## **Sobre o projeto**
 
 Este projeto é uma tentativa de opção ao famoso `create-react-app`.
