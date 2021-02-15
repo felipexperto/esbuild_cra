@@ -1,13 +1,11 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import "@testing-library/jest-dom";
 
-import App from 'components/Layout/App';
+import { App } from "components";
 
-test('renders home text', () => {
-  render(
-    <App />
-  );
+test("renders home text", () => {
+  render(<App />);
   const linkElement = screen.getByText(/An extremely fast JavaScript bundler/i);
   expect(linkElement).toBeInTheDocument();
 });

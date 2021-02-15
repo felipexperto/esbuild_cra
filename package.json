@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --modulePaths=src",
+    "test": "jest",
     "build:prod": "node scripts/build-prod.js",
     "serve": "node server.js",
     "lint:fix": "npm lint --fix",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "prettier": "prettier ./",
+    "prettier:fix": "yarn prettier --write",
+    "prettier:check": "yarn prettier --check"
   },
   "repository": {
     "type": "git",
@@ -58,6 +61,9 @@
     },
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}"
+    ],
+    "modulePaths": [
+      "<rootDir>/src/"
     ],
     "coverageThreshold": {
       "global": {
