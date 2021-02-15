@@ -1,7 +1,7 @@
 {
   "name": "esbuild_cra",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create React App alternative with esbuild.",
   "main": "index.js",
   "scripts": {
     "serve": "node server.js",
@@ -51,25 +51,5 @@
     "polka": "^0.5.2",
     "prettier": "^2.2.1",
     "serve-static": "^1.14.1"
-  },
-  "jest": {
-    "verbose": true,
-    "transform": {
-      "^.+\\.(js|jsx)?$": "babel-jest"
-    },
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}"
-    ],
-    "modulePaths": [
-      "<rootDir>/src/"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 80,
-        "functions": 80,
-        "lines": 80,
-        "statements": 80
-      }
-    }
   }
 }
