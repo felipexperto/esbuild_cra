@@ -1,6 +1,7 @@
-import React from 'react';
+import React from "react";
+import propTypes from "prop-types";
 
-import * as S from './style';
+import * as S from "./style";
 
 const Title = ({ children }) => {
   return (
@@ -10,6 +11,13 @@ const Title = ({ children }) => {
       </a>
     </S.Title>
   );
+};
+
+Title.propTypes = {
+  children: propTypes.node,
+};
+Title.defaultProps = {
+  children: <div />,
 };
 
 export default Title;

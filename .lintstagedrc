@@ -1,0 +1,7 @@
+{
+  "*.js": [
+    "yarn prettier:check",
+    "yarn lint",
+    "yarn unit --passWithNoTests"
+  ]
+}
