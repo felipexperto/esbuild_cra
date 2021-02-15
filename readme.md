@@ -7,14 +7,15 @@ Foi criado com a intenção de estudar possibilidades, diminuir quantidade de de
 
 No momento não possui builds separados de desenvolvimento e produção e **não possui Hot Reloading**.
 
-![](https://img.shields.io/github/repo-size/felipexperto/esbuild_cra)
-![](https://img.shields.io/tokei/lines/github/felipexperto/esbuild_cra)
-![](https://img.shields.io/github/languages/count/felipexperto/esbuild_cra)
-![](https://img.shields.io/github/languages/top/felipexperto/esbuild_cra)
+![React](https://github.com//aleen42/badges/raw/master/src/react.svg)
+![Tamanho do repositório](https://img.shields.io/github/repo-size/felipexperto/esbuild_cra)
+![Quantidade de linhas de código do repositório](https://img.shields.io/tokei/lines/github/felipexperto/esbuild_cra)
+![Quantidades de linguagens no repositório](https://img.shields.io/github/languages/count/felipexperto/esbuild_cra)
+![Linguagem principal do repositório](https://img.shields.io/github/languages/top/felipexperto/esbuild_cra)
 
-![](https://img.shields.io/github/license/felipexperto/esbuild_cra)
-![](https://img.shields.io/github/package-json/v/felipexperto/esbuild_cra)
-![](https://img.shields.io/github/last-commit/felipexperto/esbuild_cra)
+![Tipo de licença do projeto](https://img.shields.io/github/license/felipexperto/esbuild_cra)
+![Versão do projeto no package.json](https://img.shields.io/github/package-json/v/felipexperto/esbuild_cra)
+![Data do último commit](https://img.shields.io/github/last-commit/felipexperto/esbuild_cra)
 
 ## **Tecnologias**
 
