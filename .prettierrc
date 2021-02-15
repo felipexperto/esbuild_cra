@@ -1,0 +1,9 @@
+{
+  "printWidth": 90,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "trailingComma": "es5",
+  "singleQuote": false,
+  "semi": true,
+  "tabWidth": 2
+}
