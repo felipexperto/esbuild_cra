@@ -19,9 +19,9 @@
     "type": "git",
     "url": "git+https://github.com/felipexperto/esbuild_cra.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["esbuild"],
+  "author": "felipexperto",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/felipexperto/esbuild_cra/issues"
   },
