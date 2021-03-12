@@ -6,3 +6,4 @@ node_modules
 dist/
 scripts
 jest.config.js
+/public
