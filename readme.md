@@ -32,7 +32,7 @@ Os papéis de algumas dependências:
 - [eslint](https://eslint.org/) + [prettier](https://prettier.io/) para manter um padrão e boas práticas na escrita do código;
 
 ## **Como utilizar**
-### **Executando o projeto**
+### **Executando o projeto localmente**
 
 1. Clone o repositório
 
@@ -45,6 +45,12 @@ Os papéis de algumas dependências:
 4. Visite o endereço:
     - `http://localhost:3000`
 
+### **Buildando o projeto**
+
+- Execute o comando abaixo:
+  - `yarn build:prod`
+    - Uma pasta `dist` será criada dentro do diretório `public`;
+    - O diretório `public` representa sua aplicação;
 ### **Testes**
 
 - Rodar testes unitários
@@ -66,3 +72,4 @@ Os papéis de algumas dependências:
 
 - Rodando o eslint para tentar corrigir pequenos problemas, como warnings:
   - `yarn lint:fix`
+

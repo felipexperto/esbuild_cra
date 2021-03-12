@@ -5,7 +5,8 @@ export const Title = styled.h1`
   font-size: 6.25rem;
   font-weight: bolder;
   margin-bottom: 0;
-  text-align: center;
+  margin-top: 1rem;
+  width: 100%;
 
   & a {
     color: inherit;

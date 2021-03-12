@@ -1,13 +1,15 @@
-import React, { Fragment } from "react";
+import React from "react";
 
-import { Title, Subtitle } from "components";
+import { Logo } from "components";
+import { GlobalStyles } from "styles";
+import * as S from "./style";
 
 const App = () => {
   return (
-    <Fragment>
-      <Title>esbuild</Title>
-      <Subtitle>An extremely fast JavaScript bundler</Subtitle>
-    </Fragment>
+    <S.Wrapper>
+      <GlobalStyles />
+      <Logo />
+    </S.Wrapper>
   );
 };
 
